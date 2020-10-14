@@ -1,0 +1,55 @@
+
+# Druck, Export, Seriendruck
+
+Eingegebene Daten können für den Druck oder Seriendruck zur Verfügung gestellt werden und es können auch Dokumente automatisiert bei Schülern, Bewerbern, Klassen, Lehrern usw. abgelegt werden.  
+
+## Der Seriendruck
+
+In MAGELLAN können Sie ein Anschreiben an beliebig viele Personen erstellen, indem Sie die Seriendruckfunktionalität von MAGELLAN nutzen. Über eine Schnittstelle zu Microsoft Word können Sie auf Basis der Auswahllisten für Bewerber, Schüler, Lehrer, Klassen, Sorgeberechtigte, Betriebe, Personen, Adressen, Mandanten und Schulen Seriendrucke erzeugen.
+
+Microsoft Word wird dabei von MAGELLAN aus ferngesteuert, d.h. Sie müssen nicht MAGELLAN verlassen und Microsoft Word zuvor starten, um die Seriendruckfunktionalität nutzen zu können. Um einen Seriendruck durchzuführen, markieren Sie z.B. die gewünschten Schüler in der Auswahlliste der Schüler. Rufen Sei den Assistenten per `STRG+W` auf oder wählen Sie `Start > Seriendruck nach Word`.
+
+!!! info "Hinweis"
+
+    Auf der in der nachfolgenden Abbildung gezeigten Karte wählen Sie den Adressaten. Indirekt wählen Sie auch welche Menge an Daten nach MS Word übergeben wird. Achten Sie bitte darauf, dass die im Folgeschritt gewählte Seriendruckvorlage nur die übergebenen Seriendruckfelder anspricht.
+
+![Auswahl des Adressaten und der damit verbundenen Datenmenge](/assets/images/sd.png)
+
+Option | Was wird an Word übergeben?
+--|--
+`An alle markierten Schüler`|Es werden Schülerdaten und Klassendaten übergeben. <br/>Es entsteht pro Schüler ein Brief/Seriendruckdatensatz.
+`An alle Sorgeberechtigten der markierten aktiven Schüler`|Es werden Schülerdaten, Klassendaten und Sorgeberechtigtendaten übergeben. <br/>Es entsteht pro Sorgeberechtigter ein Brief/Seriendruckdatensatz. <br/>Entscheidend dafür ist der Wert `Immer` im Feld `Benachrichtigung` unter `Schüler > Familie > Sorgeberechtigter editieren > Benachrichtigung` pro Sorgeberechtigtem.
+`An den aktuellen Betrieb der markierten Schüler`|Es werden Schülerdaten, Klassendaten und Betriebedaten übergeben. <br/>Es entsteht pro Schüler ein Brief/Seriendruckdatensatz. <br/Für die Auswahl des aktuellen Betriebs ist die Auswahl unter `Schüler > Ausbildung` im Feld `Ausbildung` am unteren Fensterrand entscheidend.
+
+Der Serienbriefassistent öffnet sich. Verfassen Sie ggf. den Serienbrief und fügen Sie die entsprechenden Seriendruckfelder ein. Um ein Worddokument als Vorlage für den MAGELLAN-Seriendruck verfügbar zu machen, speichern Sie dieses Dokument unter `MAGELLAN\Vorlagen\Schüler (Sorgeberechtigte, Personen, Betriebe, Schulen, Lehrer...)` ab.
+
+## Eigene Serienbriefvorlagen in MAGELLAN einfügen
+
+Um eigene Vorlagen einzufügen, gehen Sie bitte folgendermaßen vor:
+
+1. Sie starten den Seriendruck und wählen die Option `Daten mit einem vorhandenen Worddokument verknüpfen`. Verweisen Sie dabei auf die Worddatei, die den vorbereiteten Text enthält, aber noch keine Seriendruckfelder.
+2. Word startet, Sie sehen Ihren Text und können nun über die Wordfunktion `Seriendruckfeld einfügen` an den gewünschten Stellen die Seriendruckfelder platzieren.
+3. Wählen Sie Datei|Speichern unter und passen bitten den Dateityp auf Wordvorlage an. Speichern Sie das Dokument an einer beliebigen Stelle.
+4. Wechseln Sie an die Stelle und kopieren Ihre Wordvorlage in die Zwischenablage, öffnen MAGELLAN und wählen `Extras > Vorlagen organisieren > Schüler/Bewerber...` und fügen über `Rechtsklick > Einfügen` Ihre Datei mit der Endung *.dot oder *.dotx ein.
+
+Beim nächsten Aufruf des Seriendrucks finden Sie unter den Beispielvorlagen im Punkt `Daten mit einer Wordvorlage verknüpfen` Ihre Vorlage mit zu Auswahl.
+
+## Exportfunktion
+
+Über die Exportfunktionalität nach Microsoft Excel und HTML können Sie Schlüsselverzeichnisse und Auswahllisten in ein Excel- oder HTML-Format übertragen und dann weiterverarbeiten. Beispielsweise können Sie dann die Daten ausdrucken. Sie können z.B. alle Schlüsselverzeichnisse exportieren und ausdrucken, indem Sie diese nach Excel exportieren. Rufen Sie dazu über `Verzeichnisse` das entsprechende Schlüsselverzeichnis auf. Klicken Sie auf die Schaltfläche `Exportieren nach Excel`. Es öffnet sich das Fenster `Liste exportieren nach`. Wählen Sie einen Pfad und einen Dateinamen und klicken auf `Öffnen`. Excel öffnet die neue Datei, in der Sie die Schlüsselverzeichnisse bearbeiten und dann ausdrucken können.
+
+Sie haben in allen Auswahllisten die Möglichkeit, die aktuelle Bildschirmansicht (auch Gruppierungen und Sortierungen) nach Excel zu exportieren und Sie dort auszudrucken. Markieren Sie die gewünschten Datensätze in der Auswahlliste. Zum Exportieren der Daten nach Excel, klicken Sie in der Menüleiste auf die Schaltfläche mit dem Excelsymbol .
+Zum Exportieren der Daten in das HTML-Format, klicken Sie in der Menüleiste auf die Schaltfläche
+
+## Berichte drucken
+
+Sie drucken Listen bzw. Formulare, indem Sie in die entsprechende Auswahlliste wechseln und dort die gewünschten Einträge markieren, für die ein Bericht gedruckt werden soll. Wollen Sie z.B. einen Bericht für Schüler ausdrucken, dann müssen Sie einen oder mehrere Schüler in der Auswahlliste der Schüler markieren und dann mit der rechten Maustaste den Befehl `Bericht drucken` aufrufen. Es öffnet sich das Fenster `Bericht drucken`, in dem Sie den gewünschten Bericht auswählen können. Klicken Sie auf `Vorschau`, um den Bericht nur in der Vorschau zu öffnen. Hinweis: Um Zeugnisse zu drucken, müssen Sie den bzw. die entsprechenden Schüler in der `Auswahlliste Schüler` markieren und dann mit der rechten Maustaste den Befehl `Zeugnisse drucken` wählen.
+
+Crystal Reports Berichte können optional nach Excel, Word oder ins PDF-Format exportiert werden (`Drucken/Seitenvorschau` und dann auf das Export-Symbol klicken)
+
+![Crystal-Reports-Seitenvorschau: Export-Symbol](assets/images/01.png)
+
+## Dokumentenverwaltung
+
+Um alle Briefe, die Sie über MAGELLAN an Schüler, Bewerber, Lehrer oder Personen gesendet haben, zu finden, markieren Sie den entsprechenden Datensatz, klicken Sie mit der rechten Maustaste darauf und wählen Sie Dokumente (STRG+D).
+Optional können Sie diesen Punkt auch über `Bearbeiten` aufrufen. Das Fenster Dokumente von Person (Person bezieht sich auf den Namen der markierten Person) öffnet sich. Hier können Sie alle Dokumente einsehen, indem Sie diese anklicken. Sie können auch manuell erstellte und bereits versendete Dokumente (z.B. Briefe) in die persönliche Dokumentenverwaltung importieren. Klicken Sie dazu auf das Symbol . Es öffnet sich das Fenster `Dokumente importieren`. Suchen Sie hier das gewünschte Dokument aus und klicken Sie auf `Öffnen`. Das ausgewählte Dokument erscheint ab sofort als weiteres Symbol in der persönlichen Dokumentenverwaltung der ausgewählten Person.

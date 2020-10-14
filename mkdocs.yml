@@ -1,0 +1,78 @@
+# Project information
+site_name: Crystal Reports Schulungsunterlagen
+site_description: 'Crystal Reports  Schulungsunterlagen'
+site_author: 'STÜBER SYSTEMS GmbH'
+site_url: 'https://doc.crystal-schulungen.stueber.de'
+
+# Copyright
+copyright: © 2020 STÜBER SYSTEMS GmbH
+
+# Repository
+repo_name: 'Auf GitHub'
+repo_url: 'https://github.com/stuebersystems/doc.crystal-schulungen.de'
+
+# Theming
+theme: 
+    name: material
+    custom_dir: overrides
+    language: de
+    features:
+        - instant
+    palette:
+        primary: 'blue'
+        accent: 'deep orange'
+    font: false
+    favicon: assets/logos/favicon.ico
+    logo: 'assets/logos/logo.svg'
+    include_search_page: false
+    search_index_only: true
+    static_templates:
+      - 404.html
+
+# Legal links
+extra:
+  legal:
+    - label: Impressum
+      link: https://www.stueber.de/imprint.php
+    - label: Datenschutz
+      link: https://legal.stueber.de/privacy.php
+
+# Customization
+extra_css:
+    - assets/css/custom.css
+    
+# Extensions    
+markdown_extensions:
+    - admonition
+
+# Plugins    
+plugins:
+    - search
+    - img2fig
+  
+# Navigation  
+nav:
+- Allgemein: 
+    - Überblick: index.md
+- M01 MAGELLAN Einführung:
+    - Organisatorisches: m01/01.organisatorisches.md
+    - Einstieg: m01/02.einstieg.md
+    - Laufbahnprozesse: m01/03.laufbahnprozesse.md
+    - Registerkarten: m01/04.registerkarten.md
+    - Druck, Dokumente: m01/05.druck.md
+- M02 MAGELLAN Zeugniskarte:
+    - Organisatorisches: m02/01.organisatorisches.md
+    - Modul MAGELLAN BERICHTE: m02/02.modul.berichte.md
+    - Registerkarte Zeugnis: m02/03.register.zeugnis.md
+    - Drucken: m02/04.druck.md
+- M03 MAGELLAN Administrator:
+    - Organisatorisches: m03/01.organisatorisches.md
+    - Installation: m03/02.installation.md
+    - Lizenz: m03/03.lizenz.md
+    - Deinstallation: m03/04.deinstallation.md
+    - Update: m03/05.update.md
+    - Neue Datenbank: m03/06.neue.db.md
+    - Import: m03/07.import.md
+    - Benutzerverwaltung: m03/08.benutzer.md
+    - Sichern: m03/09.sichern.md
+    - MyMAGELLAN CENTER: m03/10.mymag.md
