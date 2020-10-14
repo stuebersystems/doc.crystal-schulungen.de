@@ -54,25 +54,11 @@ plugins:
 nav:
 - Allgemein: 
     - Überblick: index.md
-- M01 MAGELLAN Einführung:
-    - Organisatorisches: m01/01.organisatorisches.md
-    - Einstieg: m01/02.einstieg.md
-    - Laufbahnprozesse: m01/03.laufbahnprozesse.md
-    - Registerkarten: m01/04.registerkarten.md
-    - Druck, Dokumente: m01/05.druck.md
-- M02 MAGELLAN Zeugniskarte:
-    - Organisatorisches: m02/01.organisatorisches.md
-    - Modul MAGELLAN BERICHTE: m02/02.modul.berichte.md
-    - Registerkarte Zeugnis: m02/03.register.zeugnis.md
-    - Drucken: m02/04.druck.md
-- M03 MAGELLAN Administrator:
-    - Organisatorisches: m03/01.organisatorisches.md
-    - Installation: m03/02.installation.md
-    - Lizenz: m03/03.lizenz.md
-    - Deinstallation: m03/04.deinstallation.md
-    - Update: m03/05.update.md
-    - Neue Datenbank: m03/06.neue.db.md
-    - Import: m03/07.import.md
-    - Benutzerverwaltung: m03/08.benutzer.md
-    - Sichern: m03/09.sichern.md
-    - MyMAGELLAN CENTER: m03/10.mymag.md
+- Crystal Reports Grundlagen: basics.md
+- Crystal Reports Formeln: formulas.md
+- Laufende Summenfelder: running_totals.md
+- Gruppieren: groups.md
+- Unterberichte: subreports.md
+- Schrit-für-Schritt:
+    - Einen bestehenden Bericht ändern: step-by-step/change_report.md
+    - Eine Klassenliste von Grund auf neu erstellen: step-by-step/create_class_list.md
