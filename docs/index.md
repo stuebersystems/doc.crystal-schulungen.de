@@ -1,12 +1,12 @@
 # Über diese Unterlagen
 
-Diese Unterlagen fassen ergänzend zur MAGELLAN - Crystal Reports Schulungen S01 und S02 behandelten Themen zusammen.
+Diese Unterlagen geben Ihnen einen Kurzüberblick über die Schulungsinhalte der MAGELLAN-Crystal Reports Schulung und noch einiges Wissenswertes mehr. Zu allen angesprochenen Themen wird hier das Wesentliche anhand von Bildschirmabbildungen und eines entsprechenden Textes erläutert. Eine umfangreichere Dokumentation zu unseren Produkten erhalten Sie unter in unserem [Dokumentationsportal](https://www.stueber.de/docs.php), eingehende Hilfe zu bestimmten Themen in Crystal Reports erhalten Sie u.a. in der Crystal Reports Programmhilfe unter `Hilfe > SAP Crystal Report Hilfe F1`.
 
-## Kapitel
+## Crystal Reports
 
-[Crystal Reports Grundlagen](basics.md)
+[Grundlagen](basics.md)
 
-[Crystal Reports Formeln](formulas.md)
+[Formeln](formulas.md)
 
 [Laufende Summenfelder](running_totals.md)
 
@@ -15,6 +15,8 @@ Diese Unterlagen fassen ergänzend zur MAGELLAN - Crystal Reports Schulungen S01
 [Unterberichte](subreports.md)
 
 ## Schritt-für-Schritt Anleitungen
+
+[Überblick](step-by-step/overview.md)
 
 [Einen bestehenden Bericht abändern](step-by-step/change_report.md)
 

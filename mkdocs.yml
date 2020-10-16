@@ -52,13 +52,14 @@ plugins:
   
 # Navigation  
 nav:
-- Allgemein: 
-    - Überblick: index.md
-- Crystal Reports Grundlagen: basics.md
-- Crystal Reports Formeln: formulas.md
-- Laufende Summenfelder: running_totals.md
-- Gruppieren: groups.md
-- Unterberichte: subreports.md
+- Überblick: index.md
+- Crystal Reports:
+    - Grundlagen: basics.md
+    - Formeln: formulas.md
+    - Laufende Summenfelder: running_totals.md
+    - Gruppieren: groups.md
+    - Unterberichte: subreports.md
 - Schrit-für-Schritt:
+    - Überblick: step-by-step/overview.md
     - Einen bestehenden Bericht ändern: step-by-step/change_report.md
     - Eine Klassenliste von Grund auf neu erstellen: step-by-step/create_class_list.md
