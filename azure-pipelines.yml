@@ -12,6 +12,7 @@ steps:
   inputs:
     targetType: 'inline'
     script: |
+      pip install --upgrade pip
       pip install mkdocs mkdocs-material mkdocs-img2fig-plugin
     failOnStderr: true
     workingDirectory: '$(Build.SourcesDirectory)'
