@@ -10,9 +10,9 @@ Diese Unterlagen geben Ihnen einen Kurzüberblick über die Schulungsinhalte der
 
 [Laufende Summenfelder](running_totals.md)
 
-[Gruppierungen](groups.md)
+<!-- [Gruppierungen](groups.md) -->
 
-[Unterberichte](subreports.md)
+<!-- [Unterberichte](subreports.md) -->
 
 ## Schritt-für-Schritt Anleitungen
 
