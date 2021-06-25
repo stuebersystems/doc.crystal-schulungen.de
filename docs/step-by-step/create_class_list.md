@@ -44,7 +44,7 @@ Das Dialogfenster schließt sich und Sie können nun auf die MAGELLAN-Datenbank 
 2. Wählen Sie die passende Auswahl-Ansicht, für Klassenbericht ist dies die Ansicht `AuswahlKlassen`. Per Doppelklick, oder über die Schalftfläche mit dem `Pfeil nach Rechts` können Sie die Ansicht als `Ausgewählte Tabelle` für den Bericht übernehmen.
 3. Wiederholen Sie die Schritte für alle weiteren Tebellen/Ansichten, die in ihrem Bericht verwendet werden. Für unsere Klassenliste fügen Sie bitte folgendes hinzu:
 
-**Ansichten**
+### Ansichten
 
 Name    | Erläuterung
 ------- | -----------
@@ -58,7 +58,7 @@ Dabei ergibt sich ein Namensproblem und ggf. ein Verständnisproblem, dem wir mi
 
 ![Ansicht "Lehrer2" - Alias umbenennen](/assets/images/stept-by-step/create-class-list/assistant.database.rename-alias.png)
 
-**Tabellen**
+### Tabellen
 
 Name               | Erläuterung
 ------------------ | -----------
