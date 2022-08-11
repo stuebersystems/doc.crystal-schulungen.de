@@ -1,0 +1,19 @@
+# Schulungsvoraussetzungen
+
+Für das Gelingen der Online-Schulungen sollte jeder Teilnehmer einen Rechner mit:
+
+* einer lizenzierten Crystal Reportsversion
+* mit der [jeweils aktuellen MAGELLAN-Installation](https://magellan.stueber.de/download.php)
+* einer Anbindung auf eine eigene unveränderte Beispieldatenbank
+* ein Headset mit Mikrofon zur Verfügung haben. 
+
+In den Schulungen werden Aktionen mit an Beispielen durchgespielt, dabei sollte jedem Teilnehmer der Zugriff auf das gleiche Beispiel möglich sein. Bitte erstellen Sie je Teilnehmer eine Kopie der Beispieldatenbank und verweisen in den Verbindungsdaten darauf.
+
+Aktion|Hinweise
+:--|--
+**Beispieldatenbank**|Sollten Sie unsere Beispieldatenbank nicht mehr zur Hand oder bereits verändert haben, können Sie hier eine aktuelle Beispieldatenbank herunterladen:<br/>[https://download.stueber.de/bin/de/assets/magellan/v9/database/MAGELLAN9_Beispiel.fdb](https://download.stueber.de/bin/de/assets/magellan/v9/database/MAGELLAN9_Beispiel.fdb).<br/><br/>Legen Sie diese Beispieldatenbank für jeden Teilnehmer parallel zu Ihrer Schuldatenbank ab (Beispiel: `MAGELLAN9_Beispiel.01.fdb`, `MAGELLAN9_Beispiel.01.fdb`, `MAGELLAN9_Beispiel.02.fdb`...).<br/><br/>Richten Sie für Ihre Teilnehmer jeweils eine Verbindung zu einer der Datenbanken ein, so das jeder Teilnehmer eine Anbindung zu einer Datenbank hat. Sie können hierfür im MAGELLAN Administrator auf der Unterkarte `Datenbankverbindungen` eine bestehende Verbindung per `Rechtsklick > Kopieren` duplizieren und lediglich die Benennung der Datenbank auf der Unterkarte `Datenbank` anpassen.<br/><br/>Alternativ legen Sie eine neue Datenbankverbindung an, die Anleitung dafür finden Sie hier:[[https://doc.magellan.stueber.de/schulverwaltung/admin/admin.datenbankverbindungen/](https://doc.magellan.stueber.de/schulverwaltung/admin/admin.datenbankverbindungen/).
+**Lizenzen**|Bitte stellen Sie sicher, dass die in den Schulungen eingesetzten Programme und die dazugehörigen **Lizenzen** verfügbar sind.
+**Test der**<br/>**Schulungsumgebung**|Testen Sie bitte Folgendes innerhalb der MAGELLAN Schulverwaltung:<br/><br/>1. Melden Sie sich mit der Standardkennung `sysdba` und dem Passwort `masterkey`. Klappt das? Wenn nicht erkundigen Sie sich intern nach den zu verwendenen Anmeldedaten. Für die Schulung ist die Anmeldung als `sysdba` Voraussetzung.<br/><br/>2. Bitte rufen Sie innerhalb der MAGELLAN Schulverwaltung die Druckvorschau (`Menü Schüler > einen Schüler markieren > STRG+P > einen Bericht anklicken > STRG+V`) auf. Klappt dieser Aufruf?
+**Kommunikation**|**Bitte stellen Sie für die Kommunikation während der Schulung sicher,**<br/>**dass die Teilnehmer zu sehen und auch gut zu hören sind**.
+**Probleme?**|Sollten Probleme entstehen wenden Sie sich bitte vor dem vereinbarten Schulungstermin an unser [Supportteam](https://support.stueber.de/), vielen Dank!
+**Unsere**<br/>**Empfehlung**|Die optimale Variante wäre, wenn jeder Teilnehmer einen Rechner mit Headset und zwei Bildschirme zur Verfügung hätte. Damit könnte man auf dem einen Bildschirm den Zoombildschirm mit dem gezeigten Inhalt sehen und auf dem anderen Bildschirm in Crystal Reports die Schritte durchführen.<br/><br/>Nicht optimal, aber alternativ auch möglich ist, dass die Kollegen gemeinsam in einem Raum sitzen und das Zoomfenster auf einem gesonderten Bildschirm gezeigt wird, damit ist dann aber kein Zugriff auf die Situation auf den Teilnehmerrechnern möglich.<br/><br/>Sollte das alles nicht möglich sein, kann man natürlich auch einfach nur zuschauen, MAGELLAN oder Crystal Reports wird dann auf den Rechnern nicht benötigt.

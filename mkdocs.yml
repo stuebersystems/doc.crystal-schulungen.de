@@ -54,6 +54,7 @@ plugins:
 # Navigation  
 nav:
 - Überblick: index.md
+- Schulungsvoraussetzungen: voraussetzungen.md
 - Crystal Reports:
     - Grundlagen: basics.md
     - Formeln: formulas.md
