@@ -11,6 +11,9 @@ copyright:
 # Repository
 repo_name: 'Auf GitHub'
 repo_url: 'https://github.com/stuebersystems/doc.crystal-schulungen.de'
+
+# Theming
+theme: 
     name: material
     language: de
     static_templates:
