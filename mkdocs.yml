@@ -48,7 +48,6 @@ plugins:
     
 # Extensions    
 markdown_extensions:
-  - fancyboxmd
   - markdown.extensions.admonition
   - markdown.extensions.abbr
   - markdown.extensions.attr_list
