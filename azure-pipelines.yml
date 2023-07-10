@@ -1,5 +1,5 @@
 pool:
-  vmImage: 'windows-2019'
+  vmImage: 'windows-2022'
     
 steps:
 - task: UsePythonVersion@0
@@ -12,7 +12,7 @@ steps:
   inputs:
     targetType: 'inline'
     script: |
-      pip install mkdocs mkdocs-material mkdocs-img2fig-plugin
+      pip install mkdocs mkdocs-material mkdocs-minify-plugin mkdocs-img2fig-plugin --disable-pip-version-check
     failOnStderr: false
     workingDirectory: '$(Build.SourcesDirectory)'
 - task: PowerShell@2
