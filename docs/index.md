@@ -21,3 +21,14 @@ Diese Unterlagen geben Ihnen einen Kurzüberblick über die Schulungsinhalte der
 [Einen bestehenden Bericht abändern](step-by-step/change_report.md)
 
 [Eine Klassenliste von Grund auf neu erstellen](step-by-step/create_class_list.md)
+
+## Weiterführende Links
+
+* [MAGELLAN Datenstruktur](https://doc.magellan-toolbox.stueber.de/datenstruktur)
+* [SAP Crystal-Reports Produktseite (englisch)](https://www.sap.com/germany/products/crystal-reports.html)
+* [Downloads der aktuellen Versionen (englisch)](https://www.crystalreports.com/download/)
+
+### Für tiefergehendes Verständnis zum Thema SQL
+
+* [UNI Hannover - SQL-Einführung (deutsch)](https://www.luis.uni-hannover.de/fileadmin/kurse/material/SQL-Einfuehrung/SQL_01_Einfuehrung.pdf)
+* [W3 Schools - SQL-Tutorial (englisch)](https://www.w3schools.com/sql/)

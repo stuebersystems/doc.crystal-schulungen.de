@@ -12,7 +12,7 @@ Dies sind die Schulungsunterlagen für Crystal Reports. Die Dokumentation ist Op
 
 4. Tippe die Befehle `python --version` und `pip --version` ein, um die Python-Installation zu überprüfen. In beiden Fällen sollte eine Versionsnummer als Ausgabe in der Eingabeaufforderung erscheinen.
 
-5. Tippe jetzt den Befehl `pip install mkdocs mkdocs-material`, um das Python-Package *MkDocs* und das Theme *Material for MkDocs* zu installieren.
+5. Tippe jetzt den Befehl `pip install mkdocs mkdocs-material mkdocs-minify-plugin`, um das Python-Package *MkDocs* und das Theme *Material for MkDocs* zu installieren.
 
 6. Ein letzter Test: Tippe den Befehl `mkdocs --version` ein. Eine Versionsnummer in der Eingabeaufforderung zeigt Dir erneut, dass alles korrekt installiert wurde.
 
