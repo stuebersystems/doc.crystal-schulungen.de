@@ -1,6 +1,6 @@
 # Über diese Unterlagen
 
-Diese Unterlagen geben Ihnen einen Kurzüberblick über die Schulungsinhalte der MAGELLAN-Crystal Reports Schulung und noch einiges Wissenswertes mehr. Zu allen angesprochenen Themen wird hier das Wesentliche anhand von Bildschirmabbildungen und eines entsprechenden Textes erläutert. Eine umfangreichere Dokumentation zu unseren Produkten erhalten Sie unter in unserem [Dokumentationsportal](https://www.stueber.de/docs.php), eingehende Hilfe zu bestimmten Themen in Crystal Reports erhalten Sie u.a. in der Crystal Reports Programmhilfe unter `Hilfe > SAP Crystal Report Hilfe F1`.
+Diese Unterlagen geben Ihnen einen Kurzüberblick über die Schulungsinhalte der Magellan-Crystal Reports Schulung und noch einiges Wissenswertes mehr. Zu allen angesprochenen Themen wird hier das Wesentliche anhand von Bildschirmabbildungen und eines entsprechenden Textes erläutert. Eine umfangreichere Dokumentation zu unseren Produkten erhalten Sie unter in unserem [Dokumentationsportal](https://www.stueber.de/docs.php), eingehende Hilfe zu bestimmten Themen in Crystal Reports erhalten Sie u.a. in der Crystal Reports Programmhilfe unter `Hilfe > SAP Crystal Report Hilfe F1`.
 
 ## Crystal Reports
 
@@ -24,7 +24,7 @@ Diese Unterlagen geben Ihnen einen Kurzüberblick über die Schulungsinhalte der
 
 ## Weiterführende Links
 
-* [MAGELLAN Datenstruktur](https://doc.magellan-toolbox.stueber.de/datenstruktur)
+* [Magellan Datenstruktur](https://doc.magellan-toolbox.stueber.de/datenstruktur)
 * [SAP Crystal-Reports Produktseite (englisch)](https://www.sap.com/germany/products/crystal-reports.html)
 * [Downloads der aktuellen Versionen (englisch)](https://www.crystalreports.com/download/)
 

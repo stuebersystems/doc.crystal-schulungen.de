@@ -10,21 +10,21 @@ Standardmäßig wird Crystal Reports mit dem Willkommens-Dialogfenster gestartet
 
 ## Mit Datenbank verbinden
 
-Es öffnet sich der Datenbank-Assistent. Hier muss die Quelle der Daten, also zum einen die MAGELLAN-Verbindung und zum anderen die Tabellen ausgewählt werden. Crystal Reports kann nicht direkt auf die MAGELLAN-Datenbank zugreifen. Bei der Installation von MAGELLAN wird deshalb ein ODBC-Treiber (Standard Datenbanktreiber) mitinstalliert, der es Crystal Reports ermöglicht auf die Datenbank zuzugreifen.
+Es öffnet sich der Datenbank-Assistent. Hier muss die Quelle der Daten, also zum einen die Magellan-Verbindung und zum anderen die Tabellen ausgewählt werden. Crystal Reports kann nicht direkt auf die Magellan-Datenbank zugreifen. Bei der Installation von Magellan wird deshalb ein ODBC-Treiber (Standard Datenbanktreiber) mitinstalliert, der es Crystal Reports ermöglicht auf die Datenbank zuzugreifen.
 
 Um die Verbindung auszuwählen klicken Sie auf `+ Zeichen` von `Neue Verbindung herstellen` und dann auf das `+ Zeichen` von `ODBC (RDO)`.
 
 ![Datenbank-Assistent - Datenquelle wählen](/assets/images/stept-by-step/create-class-list/assistant.database.select-datasource.png)
 
-Es öffnet sich ein Dialogfenster zur Auswahl der ODBC-Datenquelle. Die Verbindung für MAGELLAN zu Crystal-Reports nennt sich `MAGELLAN-CR`. Wählen Sie diese aus und klicken Sie auf `Weiter`.
+Es öffnet sich ein Dialogfenster zur Auswahl der ODBC-Datenquelle. Die Verbindung für Magellan zu Crystal-Reports nennt sich `Magellan-CR`. Wählen Sie diese aus und klicken Sie auf `Weiter`.
 
 ![Datenbank Assistent - ODBC-Verbindung wählen](/assets/images/stept-by-step/create-class-list/assistant.database.select-odbc.png)
 
-Sie kommen auf eine weitere Seite in dem die Anmeldung bei der Datenbank erfolgen muss. Es wird der Benutzer (Standard: `SYSDBA`) und Passwort (Standard: `masterkey`) eingegeben und danach mit `Fertig stellen` bestätigt. Damit erhält man Zugriff auf die MAGELLAN-Datenbank über Crystal Reports. Sollten Sie sich vertippt haben, kann es sein, dass sich ein anderes Dialogfenster öffnet, in dem Sie die Anmeldedaten erneut eintragen sollen.
+Sie kommen auf eine weitere Seite in dem die Anmeldung bei der Datenbank erfolgen muss. Es wird der Benutzer (Standard: `SYSDBA`) und Passwort (Standard: `masterkey`) eingegeben und danach mit `Fertig stellen` bestätigt. Damit erhält man Zugriff auf die Magellan-Datenbank über Crystal Reports. Sollten Sie sich vertippt haben, kann es sein, dass sich ein anderes Dialogfenster öffnet, in dem Sie die Anmeldedaten erneut eintragen sollen.
 
 ![Datenbank Assistent - Anmelden](/assets/images/stept-by-step/create-class-list/assistant.database.odbc-credentials.png)
 
-Das Dialogfenster schließt sich und Sie können nun auf die MAGELLAN-Datenbank zugreifen. Dies erkennen Sie daran, dass sich unterhalb ODBC in der Hierarchie jetzt der Eintrag `MAGELLAN-CR` befindet und diese weitere Einträge `Tabellen` und `Ansichten` zeigt, auf die nun zugegriffen werden kann, um die entsprechenden Datentabellen für den Bericht auszuwählen.
+Das Dialogfenster schließt sich und Sie können nun auf die Magellan-Datenbank zugreifen. Dies erkennen Sie daran, dass sich unterhalb ODBC in der Hierarchie jetzt der Eintrag `Magellan-CR` befindet und diese weitere Einträge `Tabellen` und `Ansichten` zeigt, auf die nun zugegriffen werden kann, um die entsprechenden Datentabellen für den Bericht auszuwählen.
 
 ![Datenbank Assistent - Verbunden](/assets/images/stept-by-step/create-class-list/assistant.database.connected.png)
 
@@ -38,7 +38,7 @@ Das Dialogfenster schließt sich und Sie können nun auf die MAGELLAN-Datenbank 
 
 !!! info "Hinweis"
 
-    In der Auswahl-Ansicht stehen immer die Auswahlkriterien, die in MAGELLAN zum Drucken eines Berichtes benötigt werden. Welche Auswahltabelle Sie benötigen erkennen Sie daran, welche Berichtskategorie Ihr Bericht angehört. Ein Bericht für Lehrer, nutzt die Ansicht `AuswahlLehrer`, ein Bericht für Schüler die `AuswahlSchüler`.
+    In der Auswahl-Ansicht stehen immer die Auswahlkriterien, die in Magellan zum Drucken eines Berichtes benötigt werden. Welche Auswahltabelle Sie benötigen erkennen Sie daran, welche Berichtskategorie Ihr Bericht angehört. Ein Bericht für Lehrer, nutzt die Ansicht `AuswahlLehrer`, ein Bericht für Schüler die `AuswahlSchüler`.
 
 1. Öffnen Sie links die `Ansichten`
 2. Wählen Sie die passende Auswahl-Ansicht, für Klassenbericht ist dies die Ansicht `AuswahlKlassen`. Per Doppelklick, oder über die Schalftfläche mit dem `Pfeil nach Rechts` können Sie die Ansicht als `Ausgewählte Tabelle` für den Bericht übernehmen.
@@ -52,7 +52,7 @@ Lehrer2 | Enthält eine verkürzte Ansicht der Lehrer-Stammdaten. Auf diese dür
 
 ![Ansicht "Lehrer2"](/assets/images/stept-by-step/objects/view.lehrer2.png)
 
-Lehrer kommen in unterschiedlichen Rollen in MAGELLAN vor. Als Schulleitung, Stellv. Schulleitung, Klassenleiter 1 und Klassenleiter 2 oder z.B. als Tutor, oder Fachlehrer. In der Datenbank wird jeweils die für den Lehrer eindeutige ID des Datensatzes gespeichert. Um in Crystal Reports an die Stammdaten des Lehrers zu kommen, muss die entsprechende Ansicht/Tabelle hinzufgefügt und auf den passenden Lehrer gefiltert werden. Da diese Filterung auf einen Lehrer mit entsprechender Rolle verweist, müssen wir ggfs. diese Ansicht/Tabelle mehrfach in den Bericht einbinden, z.B. einmal als Klassenleiter 1 und einmal als Klassenleiter 2.
+Lehrer kommen in unterschiedlichen Rollen in Magellan vor. Als Schulleitung, Stellv. Schulleitung, Klassenleiter 1 und Klassenleiter 2 oder z.B. als Tutor, oder Fachlehrer. In der Datenbank wird jeweils die für den Lehrer eindeutige ID des Datensatzes gespeichert. Um in Crystal Reports an die Stammdaten des Lehrers zu kommen, muss die entsprechende Ansicht/Tabelle hinzufgefügt und auf den passenden Lehrer gefiltert werden. Da diese Filterung auf einen Lehrer mit entsprechender Rolle verweist, müssen wir ggfs. diese Ansicht/Tabelle mehrfach in den Bericht einbinden, z.B. einmal als Klassenleiter 1 und einmal als Klassenleiter 2.
 
 Dabei ergibt sich ein Namensproblem und ggf. ein Verständnisproblem, dem wir mit einer klärenden Umbenennung begegnen. Wir benennen die Ansicht/Tabelle nach dem Muster <originalname_Rolle\> um.
 
@@ -69,9 +69,9 @@ SchuelerZeitraeume | Zeitraumbezogene Daten zum Schüler (Fehlzeiten, Verweis au
 
 ## Verknüpfen / Daten vorfiltern
 
-Das Auswählen der Tabellen für den Bericht bezieht diese letztendlich in die Abfrage ein, die Crystal Reports auf die MAGELLAN-Datenbank macht. Die Abfrage auf die Datenbank muss sich aber auf die gewählten Datensätze (in MAGELLAN markierte Klassen) beziehen. Die Klassen wurden in einem bestimmten Zeitraum (1. oder 2. Halbjahr eines Schuljahres) und für einen bestimmten Mandanten (üblicherweise ihre Schule) markiert. Dies haben Sie in MAGELLAN beim Druck nicht explizit ausgewählt, aber Ihre Filter sind entsprechend gesetzt.
+Das Auswählen der Tabellen für den Bericht bezieht diese letztendlich in die Abfrage ein, die Crystal Reports auf die Magellan-Datenbank macht. Die Abfrage auf die Datenbank muss sich aber auf die gewählten Datensätze (in Magellan markierte Klassen) beziehen. Die Klassen wurden in einem bestimmten Zeitraum (1. oder 2. Halbjahr eines Schuljahres) und für einen bestimmten Mandanten (üblicherweise ihre Schule) markiert. Dies haben Sie in Magellan beim Druck nicht explizit ausgewählt, aber Ihre Filter sind entsprechend gesetzt.
 
-![MAGELLAN - Auswahl für den Druck](/assets/images/stept-by-step/create-class-list/magellan.classes.select.png)
+![Magellan - Auswahl für den Druck](/assets/images/stept-by-step/create-class-list/magellan.classes.select.png)
 
 Wenn Sie eine Tabelle/Ansicht hinzufügen werden grundsätzlich alle Daten zur Verfügung gestellt. Aus dem Grund müssen die Tabellen/Ansichten auf Ihre Auswahl gefiltert werden. Diese Filterung wird durch Verknüpfen der entsprechenden Felder miteinander, durchgeführt.
 

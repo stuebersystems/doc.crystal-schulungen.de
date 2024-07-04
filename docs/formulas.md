@@ -167,7 +167,7 @@ Die einfachste sinnvolle Verwendung einer Formel fügt mehrere Datenbankfelder u
 
 #### Felder zusammensetzen
 
-Das folgende Beispiel fügt den Vor- und Nachnamen des 1. Klassenleiters zu einem Formelfeld zusammen. Vorausgesetzt, dass ein Klassenleiter1 in MAGELLAN eingetragen wurde.
+Das folgende Beispiel fügt den Vor- und Nachnamen des 1. Klassenleiters zu einem Formelfeld zusammen. Vorausgesetzt, dass ein Klassenleiter1 in Magellan eingetragen wurde.
 
 ```vb
 1 formula = ““
@@ -182,7 +182,7 @@ Der Unterstrich am Ende der Zeile 3 erlaubt die Anweisung in zwei Zeilen (4 und 
 
 #### Anrede umwandeln
 
-In vielen Fällen werden in der Datenstruktur Platzhalter für bestimmte Werte in MAGELLAN gespeichert, u. a. bei der Anrede. Welche Bedeutung sich hinter den Platzhalterwerten befinden können Sie in der [MAGELLAN-Datenstruktur}(https://doc.magellan7-toolbox.stueber.de/datenstruktur/) lesen.
+In vielen Fällen werden in der Datenstruktur Platzhalter für bestimmte Werte in Magellan gespeichert, u. a. bei der Anrede. Welche Bedeutung sich hinter den Platzhalterwerten befinden können Sie in der [Magellan-Datenstruktur}(https://doc.magellan7-toolbox.stueber.de/datenstruktur/) lesen.
 
 Solche Werte müssen für Berichte in lesbare Ausgabewerte umgewandelt werden.
 

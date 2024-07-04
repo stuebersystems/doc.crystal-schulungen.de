@@ -4,7 +4,7 @@
 
 Bevor Sie den Bericht zum Ändern aufrufen, sollten Sie Testdaten in den Speicher laden, die während der Berichtsänderung immer wieder überprüft werden können.
 
-Dafür gehen Sie in MAGELLAN an die Stelle, in der der abzuändernde Bericht üblicherweise ausgedruckt wird. Hier ein Beispiel anhand einer Klassenliste.
+Dafür gehen Sie in Magellan an die Stelle, in der der abzuändernde Bericht üblicherweise ausgedruckt wird. Hier ein Beispiel anhand einer Klassenliste.
 
 1. Öffnen Sie die Ansicht `Klassen` 
 2. Markieren Sie in der `Auswahlliste` eine oder mehrere Klassen. 
@@ -22,7 +22,7 @@ Der Bericht öffnet sich in der Entwurfsansicht von Crystal Reports. Die Seitena
 
 Die Seitenansicht öffnet sich. Beim ersten Öffnen der Seitenansicht erscheint eine Meldung, Ihre Benutzerdaten für die Datenbank wären nicht verfügbar. Klicken Sie auf OK. Es öffnet sich ein Dialogfenster zur Anmeldung an die Datenbank. Geben Sie bitte den Benutzernamen(Standard: `SYSDBA`) und Ihr Kennwort(Standard: `masterkey`) ein und bestätigen mit OK.
 
-Wenn Sie keinen Fehler bei der Anmeldung gemacht haben, sollten Sie sich jetzt in der Seitenansicht wieder finden. Sie müssten die Daten des Berichtes sehen, wie zuvor in der MAGELLAN Druckvorschau.
+Wenn Sie keinen Fehler bei der Anmeldung gemacht haben, sollten Sie sich jetzt in der Seitenansicht wieder finden. Sie müssten die Daten des Berichtes sehen, wie zuvor in der Magellan Druckvorschau.
 
 Als nächstes wird der Bericht unter neuem Namen abgespeichert, damit der Originalbericht nicht überschrieben wird. Dazu gehen Sie auf den Hauptmenüpunkt `Datei` und dann auf `Speichern unter…`. Wählen Sie das Verzeichnis und geben Sie der Datei einen neuen Namen. STÜBER SYSTEMS nutzt für die Namensgebung der Berichte eine eigene Namenskonvention, die Sie gerne übernehmen können. Diese wird in der Dokumentation der [Landesanpassungen](http://doc.la.stueber.de/#berichtsdateinamen) beschrieben.
 

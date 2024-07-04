@@ -4,7 +4,7 @@ Notizen und Folien aus der Crystal Reports Einführungsschulung.
 
 ## Wissenswertes zu Crystal Reports
 
-* Integrierte Runtime–Version in MAGELLAN zum Drucken bestehender Berichte
+* Integrierte Runtime–Version in Magellan zum Drucken bestehender Berichte
 * Sie benötigen eine Volllizenz zum Ändern von Berichten
 * Die Volllizenz kann bei SAP erworben werden
 * Letzte aktuelle Version 2020.
@@ -36,7 +36,7 @@ Notizen und Folien aus der Crystal Reports Einführungsschulung.
 * Abfragen in der Datenbank werden über die Datenbank-Abfragesprache SQL getätigt.
 * SQL steht für „Structured Query Language“.
 * SQL ist der Standard zum Abfragen und Manipulieren von Datenbanken.
-* MAGELLAN  und Crystal Reports nutzen intern SQL um Daten der Datenbank anzuzeigen, neu anzulegen oder zu ändern.
+* Magellan  und Crystal Reports nutzen intern SQL um Daten der Datenbank anzuzeigen, neu anzulegen oder zu ändern.
 * SQL Kenntnisse sind zur Nutzung von Crystal Reports nicht direkt nötig, erklärt aber warum manche Schritte in
 Crystal Report gemacht werden (z.B. Verknüpfung: `Left Outer Join`)
 

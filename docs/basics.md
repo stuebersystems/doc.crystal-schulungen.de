@@ -185,7 +185,7 @@ In Crystal Reports gibt es verschiedene Symbolleisten, die die Arbeit bei der Be
     <tr>
       <td style="text-align: center; vertical-align: middle"><img src="/assets/images/symbole-navigation/symbol.navigation.aktualisieren.png"></td>
       <td>Aktualisieren</td>
-      <td>Aktualisiert die Berichtsdaten anhand der aktuellen Datenbankdaten. Diese Funktion wird benötigt, wenn die Auswahl der Testdaten in MAGELLAN geändert wurde</td>
+      <td>Aktualisiert die Berichtsdaten anhand der aktuellen Datenbankdaten. Diese Funktion wird benötigt, wenn die Auswahl der Testdaten in Magellan geändert wurde</td>
     </tr>
     <tr>
       <td style="text-align: center; vertical-align: middle"><img src="/assets/images/symbole-navigation/symbol.navigation.abbrechen.png"></td>
@@ -244,7 +244,7 @@ Option                                            | Empfehlung     | Bedeutung
 
 Option                                                        | Empfehlung     | Bedeutung
 ------------------------------------------------------------- | -------------- | ---------
-`Tabellen und Felder > Namen anzeigen`                        | Namen anzeigen | Legt fest, ob nur die Tabellen- und Feldnamen, und/oder die Beschreibung aus der Datenbank gezeigt wird. Aufgrund, von Platzmangel und der Tatsache, dass in MAGELLAN keine Beschreibungen in der Datenbank vorhanden sind, reichen die Namen aus
+`Tabellen und Felder > Namen anzeigen`                        | Namen anzeigen | Legt fest, ob nur die Tabellen- und Feldnamen, und/oder die Beschreibung aus der Datenbank gezeigt wird. Aufgrund, von Platzmangel und der Tatsache, dass in Magellan keine Beschreibungen in der Datenbank vorhanden sind, reichen die Namen aus
 `Tabellen und Felder > Tabellen alphabetisch sortieren`       | Markiert       | Sortiert die Tabellen in den Anzeigen alphabetisch
 `Tabellen und Felder > Felder alphabetisch sortieren`         | Nicht markiert | Sortiert die Felder in den Anzeigen alphabetisch. Die Felder werden von STÜBER SYSTEMS möglichst in logischen Gruppen zusammengelegt, z.B. Alle Adressfelder hintereinander. Wenn Sie alphabetisch sortieren, müssten Sie die Listen scrollen, um an nahe Informationen zu gelangen
 `Daten-Explorer > Tabellen`                                   | Markiert       | Legt fest, ob im Daten-Explorer Tabellen angezeigt werden sollen. <b>Zwingend notwendig</b>
